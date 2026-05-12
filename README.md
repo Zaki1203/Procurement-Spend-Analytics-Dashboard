@@ -15,16 +15,16 @@ Build a fully interactive report with synchronized slicers across all pages allo
 
 Establish a reusable DAX measure framework covering Total Spend, YoY Change, PO Coverage %, Contract Coverage %, and Supplier Concentration metrics.
 
-Project Brief
+## Project Brief
 Project contains procurement and spend management datasets including supplier transactions, procurement approvals, contract coverage, invoice status, category-wise spending, and business unit expenditures. My task is to analyze this procurement data and create an interactive Power BI dashboard that provides actionable insights across the following areas:
 
-Executive Spend Overview
+1. Executive Spend Overview
 Analyze organization-wide procurement spending trends across months, business units, and procurement categories. Track overall spend, savings identified, PO coverage, contract coverage, and invoice volume to evaluate procurement efficiency and compliance performance.
 
-Supplier Intelligence & Compliance Analysis
+2. Supplier Intelligence & Compliance Analysis
 Analyze supplier spending patterns, PO match rates, approval cycle performance, and supplier concentration risk. Identify top-performing and low-performing vendors based on spend, savings contribution, and procurement compliance metrics.
 
-Category & Department Drill-Down Analysis
+3. Category & Department Drill-Down Analysis
 Perform detailed analysis of spending across departments and procurement categories. Monitor approval day distributions, payment status performance, and contract coverage targets to identify operational inefficiencies and compliance gaps.
 
 ## 📊 Analysis Summary
