@@ -2,30 +2,32 @@
 
 ## Project Objectives
 
-This project delivers a 3-page interactive Spend Analytics Dashboard built in Power BI for Nexora Global Holdings, covering $71.3M in procurement spend across 950 transactions from January 2023 to December 2024.
+Build a centralized procurement analytics dashboard for monitoring organizational spend and supplier performance.
 
-## The core objectives were:
+Enable executive-level visibility into procurement KPIs including total spend, savings identified, PO coverage, and contract compliance.
 
-Provide executive leadership with a single-view summary of total spend, savings identified, PO coverage, and contract compliance across all business units.
+Analyze supplier concentration risk, vendor efficiency, and procurement compliance metrics.
 
-Identify supplier concentration risk and evaluate vendor performance through PO match rates and savings contribution analysis
-Enable category and department-level drill-down to surface procurement inefficiencies, approval cycle bottlenecks, and overdue invoice exposure.
+Identify category-level and department-level spending patterns and operational bottlenecks.
 
-Build a fully interactive report with synchronized slicers across all pages allowing filtering by Year, Quarter, Category, Business Unit, and Department.
+Develop a fully interactive multi-page Power BI solution with synchronized slicers and drill-down capabilities.
 
-Establish a reusable DAX measure framework covering Total Spend, YoY Change, PO Coverage %, Contract Coverage %, and Supplier Concentration metrics.
+Create reusable DAX measures for procurement KPI tracking and performance analysis.
 
 ## Project Brief
-Project contains procurement and spend management datasets including supplier transactions, procurement approvals, contract coverage, invoice status, category-wise spending, and business unit expenditures. My task is to analyze this procurement data and create an interactive Power BI dashboard that provides actionable insights across the following areas:
 
-1. Executive Spend Overview
-Analyze organization-wide procurement spending trends across months, business units, and procurement categories. Track overall spend, savings identified, PO coverage, contract coverage, and invoice volume to evaluate procurement efficiency and compliance performance.
+The project uses procurement and spend management datasets from Nexora Global Holdings covering supplier transactions, procurement approvals, invoice status, contract coverage, category-wise spend, and business unit expenditures for FY 2023–2024.
 
-2. Supplier Intelligence & Compliance Analysis
-Analyze supplier spending patterns, PO match rates, approval cycle performance, and supplier concentration risk. Identify top-performing and low-performing vendors based on spend, savings contribution, and procurement compliance metrics.
+The dashboard was developed to transform raw procurement data into actionable business insights through interactive visualizations and KPI tracking. The solution enables users to monitor procurement efficiency, supplier performance, spending trends, compliance metrics, and operational bottlenecks across multiple business units and departments.
 
-3. Category & Department Drill-Down Analysis
-Perform detailed analysis of spending across departments and procurement categories. Monitor approval day distributions, payment status performance, and contract coverage targets to identify operational inefficiencies and compliance gaps.
+The report consists of three analytical pages:
+
+Executive Overview
+Supplier Intelligence
+Category Drill-Down
+
+The dashboard supports dynamic filtering by Year, Quarter, Supplier, Category, Business Unit, and Department for detailed spend analysis and decision-making.
+
 
 ## 📊 Analysis Summary
 
@@ -96,6 +98,18 @@ Highest spending departments:
 ·IT & Technology remained the largest procurement category
 ·Professional Services and Marketing represented significant operational spending
 ·Contract coverage remained below organizational target by approximately 6.8%
+
+## Technical Highlights
+
+Built custom DAX measures and Calender Table 
+
+Implemented synchronized slicers across all report pages
+
+Designed star-schema data model for optimized performance
+
+Used Power Query for data cleaning, transformation, and preprocessing
+
+Created interactive drill-down and cross-filtering functionality
 
 ## Tools & Technologies:
 
